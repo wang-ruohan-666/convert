@@ -156,7 +156,7 @@ This project currently uses two levels of tests:
 - Broad project-level tests live directly in `test/` (for example graph traversal and end-to-end conversion smoke tests).
 - Optional handler-specific unit tests live in `test/handlers/`, using the file name pattern `<handlerName>.test.ts`. These are a good fit for handlers with meaningful parsing, serialization, or file-naming logic that is hard to exercise reliably through traversal alone.
 
-Not every handler needs a dedicated unit test, but handlers with non-trivial internal logic generally should have one.
+Not every handler needs a dedicated unit test, but handlers with non-trivial custom internal logic may benefit from having one.
 
 ### Adding dependencies
 

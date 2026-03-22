@@ -89,6 +89,7 @@
     "three": "^0.182.0",
     "three-bvh-csg": "^0.0.17",
     "three-mesh-bvh": "^0.9.8",
+    "turbowarp-packager-browser": "3.11.1",
     "ts-flp": "^1.0.3",
     "verovio": "^6.0.1",
     "vexflow": "^5.0.0",
